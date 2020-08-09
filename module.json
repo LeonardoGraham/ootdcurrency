@@ -9,7 +9,7 @@
 	"scripts/currency.js"
   ],
   "version": "1.0.0",
-  "manifest": "link here",
+  "manifest": "https://github.com/LeonardoGraham/ootdcurrency/blob/master/module.json",
   "download": "link here",
   "minimumCoreVersion": "0.4.4"
 }
