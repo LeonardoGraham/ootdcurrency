@@ -3,7 +3,7 @@ Module for Foundry VTT that modifies currency to fit a common Odyssey of the Dra
 
 # Installation
 1. Feed this link to Foundry's Module Manager
- > https://github.com/LeonardoGraham/ootdcurrency/blob/master/module.json
+ > https://raw.githubusercontent.com/leonardograham/ootdcurrency/master/module.json
  
  2. Enable the Module in your Worlds Module Settings
  
