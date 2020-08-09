@@ -10,6 +10,6 @@
   ],
   "version": "1.0.0",
   "manifest": "https://github.com/LeonardoGraham/ootdcurrency/blob/master/module.json",
-  "download": "link here",
+  "download": "https://github.com/LeonardoGraham/ootdcurrency/archive/master.zip",
   "minimumCoreVersion": "0.4.4"
 }
