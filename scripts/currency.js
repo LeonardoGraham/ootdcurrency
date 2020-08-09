@@ -6,7 +6,7 @@ Hooks.on('renderActorSheet5eCharacter', (sheet, html) => {
   html.find('.denomination.cp').remove();
   html.find('[name="data.currency.cp"]').remove();
   html.find('.denomination.gp').text('Drachma');
-  html.find('.denomination.sp').text('=Lepton');
+  html.find('.denomination.sp').text('Lepton');
   // etc.
 });
   
