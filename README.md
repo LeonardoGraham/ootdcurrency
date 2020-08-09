@@ -14,9 +14,9 @@ Module for Foundry VTT that modifies currency to fit a common Odyssey of the Dra
 5e Default| |Odyssey
 --- | --- | ---
 Platinum|-->|*REMOVED*
-Gold|-->|Drachma
+Gold|-->|Drachmae
 Electrum|-->|*REMOVED*
-Silver|-->|Lepton
+Silver|-->|Lepta
 Copper|-->|*REMOVED*
      
 In addition to the renaming and hiding of currencies the conversion button's formula has been altered to have 1 Drachma equal 100 Lepta.
