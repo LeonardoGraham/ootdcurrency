@@ -20,3 +20,6 @@ Silver|-->|*REMOVED*
 Copper|-->|Lepta
      
 In addition to the renaming and hiding of currencies the conversion button's formula has been altered to have 1 Drachma equal 100 Lepta.
+
+ ## Known Issues
+ Not compatible with Lazy Money. When subtracting lepta by any number not divisible by 100, it gives incorrect conversions.
