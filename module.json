@@ -1,0 +1,15 @@
+{
+  "name": "ootdcurrency",
+  "title": "Dark SuOn 5e Currency Mod",
+  "description": "Module for Foundry VTT that modifies currency to fit a common Odyssey of the Dragonlords homebrew.",
+  "author": "LeonardoGraham",
+  "email": "LeonardoStefanGraham@gmail.com",
+  "systems": ["dnd5e"],
+  "scripts": [
+	"scripts/currency.js"
+  ],
+  "version": "1.0.0",
+  "manifest": "link here",
+  "download": "link here",
+  "minimumCoreVersion": "0.4.4"
+}
