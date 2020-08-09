@@ -5,8 +5,8 @@ Hooks.on('renderActorSheet5eCharacter', (sheet, html) => {
   html.find('[name="data.currency.pp"]').remove();
   html.find('.denomination.cp').remove();
   html.find('[name="data.currency.cp"]').remove();
-  html.find('.denomination.gp').text('Drachma');
-  html.find('.denomination.sp').text('Lepton');
+  html.find('.denomination.gp').text('Drachmae');
+  html.find('.denomination.sp').text('Lepta');
   // etc.
 });
 
@@ -17,8 +17,8 @@ Hooks.on('renderTidy5eSheet', (sheet, html) => {
   html.find('[name="data.currency.pp"]').remove();
   html.find('.denomination.cp').remove();
   html.find('[name="data.currency.cp"]').remove();
-  html.find('.denomination.gp').text('Drachma');
-  html.find('.denomination.sp').text('Lepton');
+  html.find('.denomination.gp').text('Drachmae');
+  html.find('.denomination.sp').text('Lepta');
   // etc.
 });
   
