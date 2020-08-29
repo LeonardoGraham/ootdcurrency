@@ -11,12 +11,18 @@ Hooks.on('renderActorSheet5eCharacter', (sheet, html) => {
 });
 
 Hooks.on('renderTidy5eSheet', (sheet, html) => {
+  html.find('.denomination.ep').parent().remove();
   html.find('.denomination.ep').remove();
   html.find('[name="data.currency.ep"]').remove();
+  
+  html.find('.denomination.pp').parent().remove();
   html.find('.denomination.pp').remove();
   html.find('[name="data.currency.pp"]').remove();
+  
+  html.find('.denomination.sp').parent().remove();
   html.find('.denomination.sp').remove();
   html.find('[name="data.currency.sp"]').remove();
+  
   html.find('.denomination.gp').text('Drachmae');
   html.find('.denomination.cp').text('Lepta');
   // etc.
